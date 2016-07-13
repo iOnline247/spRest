@@ -1,0 +1,36 @@
+{
+  "name": "sprest",
+  "version": "1.0.0",
+  "description": "Wrapper for SharePoint REST API",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run eslint --silent",
+    "dev": "npm run watch",
+    "env": "env",
+    "eslint": "eslint .\\src\\*.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "node watch.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iOnline247/spRest.git"
+  },
+  "keywords": [
+    "SharePoint",
+    "REST",
+    "API"
+  ],
+  "author": "Matthew Bramer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iOnline247/spRest/issues"
+  },
+  "homepage": "https://github.com/iOnline247/spRest#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "chokidar": "^1.6.0",
+    "eslint": "^3.0.1",
+    "rimraf": "^2.5.3",
+    "uglify-js": "^2.7.0"
+  }
+}
